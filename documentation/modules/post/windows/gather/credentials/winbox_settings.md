@@ -18,7 +18,7 @@ Winbox can be downloaded [here](https://mikrotik.com/download)
 
 ## Options
 
- **VERBOSE**
+### VERBOSE
 
 - By default verbose is turned off. When turned on, the module will show the HexDump of `settings.cfg.viw` files.
 
