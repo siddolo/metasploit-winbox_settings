@@ -40,7 +40,6 @@ class MetasploitModule < Msf::Post
         }
       )
     )
-
   end
 
   def run
