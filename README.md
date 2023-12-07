@@ -1,6 +1,6 @@
 # Metasploit - winbox_settings
 
-Post module for Metasploit to extracts Mikrotik Winbox credentials saved in the settings.cfg.viw file.
+Post module for Metasploit to extracts Mikrotik Winbox credentials saved in the "settings.cfg.viw" file when the "Keep Password" option is selected in Winbox.
 
 ## Module options
 
@@ -26,3 +26,9 @@ msf6 post(windows/gather/credentials/winbox_settings) > run
 [+] Password: ThisIsPassword
 [*] Post module execution completed
 ```
+
+## Author
+
+[Pasquale 'sid' Fiorillo](https://www.pasqualefiorillo.it/)
+
+Thanks to [ISGroup](https://www.isgroup.biz/) :heart:

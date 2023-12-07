@@ -12,12 +12,13 @@ class MetasploitModule < Msf::Post
     super(
       update_info(
         info,
-        'Name'          => 'Windows Gather Mikrotik Winbox "Keep Password" Credentials Extraction',
-        'Description'   => %q{ This module extracts Mikrotik Winbox credentials
-           saved in the settings.cfg.viw file.
+        'Name'          => 'Windows Gather Mikrotik Winbox "Keep Password" Credentials Extractor',
+        'Description'   => %q{ This module extracts Mikrotik Winbox credentials saved in the
+          "settings.cfg.viw" file when the "Keep Password" option is
+          selected in Winbox.
         },
         'License'       => MSF_LICENSE,
-        'Author'        => [ 'Pasquale \'sid\' Fiorillo' ],
+        'Author'        => [ 'Pasquale \'sid\' Fiorillo' ], # www.pasqualefiorillo.it - Thanks to: www.isgroup.biz
         'Platform'      => [ 'win', ],
         'SessionTypes'  => [ 'meterpreter' ],
         'Compat' => {
