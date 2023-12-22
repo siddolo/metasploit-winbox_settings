@@ -32,3 +32,5 @@ msf6 post(windows/gather/credentials/winbox_settings) > run
 [Pasquale 'sid' Fiorillo](https://www.pasqualefiorillo.it/)
 
 Thanks to [ISGroup](https://www.isgroup.biz/) :heart:
+
+[![ko-fi](https://ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/F1F3SGS48)
