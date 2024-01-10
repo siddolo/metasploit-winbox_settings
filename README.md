@@ -2,6 +2,8 @@
 
 Post module for Metasploit to extracts Mikrotik Winbox credentials saved in the "settings.cfg.viw" file when the "Keep Password" option is selected in Winbox.
 
+This repository is obsolete. The module is now part of [metasploit](https://github.com/rapid7/metasploit-framework)!
+
 ## Module options
 
 ```
